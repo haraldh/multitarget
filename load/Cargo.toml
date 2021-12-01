@@ -1,11 +1,10 @@
-cargo-features = ["per-package-target"]
-
 [package]
 name = "load"
 version = "0.1.0"
-edition = "2018"
-forced-target = "x86_64-unknown-linux-gnu"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+code = { path = "../code/", artifact = "bin", target = "x86_64-unknown-linux-musl" }
+shim = { path = "../shim/", artifact = "bin", target = "x86_64-unknown-none" }

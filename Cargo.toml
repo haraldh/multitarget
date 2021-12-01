@@ -7,10 +7,7 @@ members = [
     "shim",
 ]
 
-default-members = [
-    "code",
-    "load"
-]
+default-members = [ "load" ]
 
 [profile.dev]
 panic = "abort"

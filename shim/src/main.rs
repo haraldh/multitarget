@@ -1,7 +1,6 @@
 #![no_std]
 #![no_main]
-#![feature(asm)]
-#![feature(naked_functions)]
+#![feature(asm, asm_const, naked_functions)]
 #![deny(clippy::all)]
 
 #[panic_handler]
