@@ -1,0 +1,6 @@
+#[unstable]
+#build-std-features = ["compiler-builtins-mem"]
+#build-std = ["std"]
+
+#[build]
+#target = "x86_64-unknown-none"
